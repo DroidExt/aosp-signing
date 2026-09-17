@@ -8,7 +8,7 @@ AOSP builds use their own signing configuration.
 Add this repository at `signing/` in your application's repository root:
 
 ```sh
-git submodule add git@github.com:OkieLe/aosp-signing.git signing
+git submodule add git@github.com:DroidExt/aosp-signing.git signing
 ```
 
 For existing checkouts, run `git submodule update --init signing`.
